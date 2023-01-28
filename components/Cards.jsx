@@ -3,14 +3,17 @@
 import { useState } from 'react';
 
 import React from 'react'
-import { Card, CardHeader, CardBody, CardFooter, Button, Box, Row } from '@chakra-ui/react'
+import { Card, CardHeader, CardBody, CardFooter, Button, } from '@chakra-ui/react'
 import { Heading } from '@chakra-ui/react'
 import { Text } from '@chakra-ui/react'
 import { SimpleGrid } from '@chakra-ui/react'
+import { Box, Flex } from "@chakra-ui/react"
 
 export default function Test() {
   return (
     <>
+    <Box display="row" alignItems="center" justifyContent="space-between">
+
         <Heading color='#0B0641' my={6} >Simple pricing for your business</Heading>
         <Text fontSize='md' color='#FF1D89'> Plans that are carefully crafted to suit your business.</Text>
 
@@ -26,15 +29,15 @@ export default function Test() {
       <Button>Choose</Button>
     </CardFooter>
   </Card>
-  <Card>
+  <Card  bg='#0B0641'>
     <CardHeader>
-      <Heading size='md'> Premium </Heading>
+      <Heading color='#ffffff' size='md'> Premium </Heading>
     </CardHeader>
     <CardBody>
-      <Text>What You’ll Get</Text>
+      <Text color='#ffffff'>What You’ll Get</Text>
     </CardBody>
     <CardFooter>
-      <Button>Choose</Button>
+      <Button color='#ffffff' bg='#FF1D89' >Choose</Button>
     </CardFooter>
   </Card>
   <Card>
@@ -49,6 +52,7 @@ export default function Test() {
     </CardFooter>
   </Card>
 </SimpleGrid>
+</Box>
 {/* <SimpleGrid my={8} columns={[2, null, 3]} spacing='40px'>
   <Box bg='tomato' height='80px'></Box>
   <Box bg='tomato' height='80px'></Box>

@@ -12,14 +12,12 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <main className={styles.main}>
-            <div className="flex justify-content-center">
       <div className={styles.description}>
              <ChakraProvider>
              {/* <Row> */}
               <Cards />
               {/* </Row> */}
               </ChakraProvider>
-      </div>
       </div>
     </main>
   )

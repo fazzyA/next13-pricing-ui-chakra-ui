@@ -1,6 +1,7 @@
 'use client';
 
 import './globals.css'
+import { Box, Flex } from "@chakra-ui/react"
 
 export default function RootLayout({ children }) {
   return (
