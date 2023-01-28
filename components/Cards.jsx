@@ -4,14 +4,18 @@ import { useState } from 'react';
 
 import React from 'react'
 import { ChakraProvider } from '@chakra-ui/react'
-import { Card, CardHeader, CardBody, CardFooter, Text, Heading, Stack,StackDivider, Box, } from '@chakra-ui/react'
+import { Card, CardHeader, CardBody, CardFooter, Stack, StackDivider, Box, } from '@chakra-ui/react'
+import { Heading } from '@chakra-ui/react'
+import { Text } from '@chakra-ui/react'
 
 export default function Test() {
   // const [count, setCount] = useState(0);
 
   return (
     <>
-        <h2>Simple pricing for your business</h2>
+        <Heading color='#0B0641' >Simple pricing for your business</Heading>
+        <Text fontSize='md' color='#FF1D89'> Plans that are carefully crafted to suit your business.</Text>
+
         <p>Plans that are carefully crafted to suit your business.</p>
         <Card>
   <CardBody>
@@ -21,6 +25,7 @@ export default function Test() {
 <Card>
   <CardHeader>
     <Heading size='md'>Client Report</Heading>
+
   </CardHeader>
 
   <CardBody>
