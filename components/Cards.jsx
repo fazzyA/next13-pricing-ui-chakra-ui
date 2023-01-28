@@ -11,7 +11,6 @@ export default function Test() {
 
   return (
     <>
-        <h1>Pricing UI By Chakra</h1>
         <h2>Simple pricing for your business</h2>
         <p>Plans that are carefully crafted to suit your business.</p>
         <Card>
