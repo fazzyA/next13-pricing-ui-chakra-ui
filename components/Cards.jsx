@@ -26,7 +26,7 @@ export default function Test() {
       <Heading size='md'> Basic</Heading>
     </CardHeader>
     <CardBody>
-      <Text>What You’ll Get</Text>
+      <Text mb={5}>What You’ll Get</Text>
       <span className='d-flex'><CheckCircleIcon /> <Text>Edit up to 10 files.</Text></span>
       <span><CheckCircleIcon /> <Text>Set your own Page</Text></span>
 
@@ -40,7 +40,7 @@ export default function Test() {
       <Heading color='#ffffff' size='md'> Premium </Heading>
     </CardHeader>
     <CardBody>
-      <Text color='#ffffff'>What You’ll Get</Text>
+      <Text  mb={5} color='#ffffff'>What You’ll Get</Text>
       <CheckCircleIcon color='white' /> <Text color='white'>Additional Phone numbers</Text>
       <CheckCircleIcon color='white' /> <Text color='white'>Set your own landing page</Text>
       <CheckCircleIcon color='white' /> <Text color='white'>24/7 support</Text>
@@ -58,7 +58,7 @@ export default function Test() {
        PRO</Heading>
     </CardHeader>
     <CardBody>
-      <Text>What You’ll Get</Text>
+      <Text  mb={5}>What You’ll Get</Text>
       <CheckCircleIcon color='white' /> <Text >Additional Phone numbers</Text>
       <CheckCircleIcon color='white' /> <Text >Set your own landing page</Text>
       <CheckCircleIcon color='white' /> <Text>24/7 support</Text>
