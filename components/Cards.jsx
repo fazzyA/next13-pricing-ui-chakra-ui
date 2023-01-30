@@ -14,7 +14,7 @@ import { CheckCircleIcon } from '@chakra-ui/icons'
 
 export default function Test() {
   return (
-    
+
       <Box display="row" alignItems="center" justifyContent="space-between">
 
         <Heading textAlign='center' color='#0B0641' my={6}>Simple pricing for your business</Heading>
@@ -48,7 +48,7 @@ export default function Test() {
 
         </CardBody>
         <CardFooter justifyContent='center'>
-          <Button color='#ffffff' bg='#FF1D89'>Choose</Button>
+          <Button color='#ffffff' bg='#FF1D89' >Choose</Button>
         </CardFooter>
       </Card>
       <Card mt={5}>
